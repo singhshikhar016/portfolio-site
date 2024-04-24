@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="contrainer">
+            <div class="navbar">
+                <div class="logo-container">
+                    <img src="s.jpeg" class="logo">
+                    <div class="logo-text">hikhar singh</div>
+                </div>
+                <div class="nav-items">
+                    <div><a href="http://127.0.0.1:5500/projects/index2.html">projects</a></div>
+                    <div><a href="skills2.webp">skills</a></div>
+                    <div><a href="singhshikhar016@gmail.com">contact me</a></div>
+                    <div><a href="https://www.linkedin.com/in/shikhar-singh-0b97621a9/">linkedin</a></div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="hero-section">
+            <div class="faded-text">shikhar singh</div>
+
+            <div class="hero-section-left">
+                <div class="hero-section-heading ">Hi! i am shikhar</div>
+
+                <div class=" hero-section-heading hero-section-sub-heading">
+                    I am a <span class="role"></span>
+                </div>
+                <div class="hero-section-discription">
+                    I am a software developer and here is my portfolio website.
+                    here you'll learn about my journey as a software developer.
+
+
+
+                </div>
+
+                <div class="button" id="btn">Hire Me </div>
+            </div>
+
+            <div class="hero-section-right">
+
+                <div class="profilepic">
+                    <img src="profilepic.jpg" alt="">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="contactus-form-container">
+            <div class="conatainer">
+                <h1 class="contactus-heading">CONTACT ME</h1>
+                <h3 class="contactus-sub-heading"> questions, thoughts, sugession or just want to say hello ?</h3>
+
+                <div class="contactus-form-container">
+                    <form class="form" action="">
+                        <div class="formfield-container">
+                            <input class="formfield" type="text" name="name" id="" placeholder="enter your name" />
+                            <input class="formfield" type="email" name="email" id=""
+                                placeholder="enter email address" />
+                            <input class="formfield" type="text" name="subject" id=""
+                                placeholder="enter your subject" />
+                            <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea"
+                                placeholder="enter your message"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="button" id="btn">
+                                Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-faded-text">shikhar singh</div>
+                    <div class="link-wrapper">
+                        <div>
+                            <a href="#projects">project</a>
+                        </div>
+                        <div> <a href="#skills">skills</a></div>
+                        <div> <a href="#contactme">contactme</a></div>
+                    </div>
+                    <div class="icon-wrapper">
+                        <i class="fa-brands fa-linkedin icon"> </i>
+                        <i class="fa-brands fa-github icon"></i>
+                        <i class="fa-brands fa-instagram icon"></i>
+                        <i class="fa-regular fa-envelope icon"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Full Stack Developer",
+                "Web Developer",
+                "UI-UX Designer",
+                "Backend Developer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 50,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+
+
+</body>
+
+</html>
